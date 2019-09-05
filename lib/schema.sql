@@ -27,7 +27,7 @@ CREATE TABLE characters(
   name STRING,
   motto STRING,
   species STRING,
-  author_id INTEGER,
+  author_id INTEGER
 );
 
 CREATE TABLE character_books(
