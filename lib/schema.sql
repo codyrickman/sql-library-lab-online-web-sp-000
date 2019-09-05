@@ -35,13 +35,3 @@ CREATE TABLE books(
   character_id INTEGER,
   book_id INTEGER
 )
-
-
-The `Characters` table has a name, motto, and species and belong to an author and a
-  series
-7. The `Books` table has many characters and characters are in many books in a series.
-  How do we accomplish this complex association? With a join table between
-  Characters and Books. This join table (let's call it character_books) will
-  just have -in addition to its primary key- two foreign key columns for the
-  character and book ids. Each row in this join table acts as a relation
-  between a book and a character.
