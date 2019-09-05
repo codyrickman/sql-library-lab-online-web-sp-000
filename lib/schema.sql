@@ -26,6 +26,7 @@ CREATE TABLE characters(
   id INTEGER PRIMARY KEY,
   name STRING,
   motto STRING,
+  species STRING,
   author_id INTEGER,
   series_id INTEGER
 );
