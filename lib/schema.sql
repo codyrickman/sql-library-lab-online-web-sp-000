@@ -4,3 +4,8 @@ CREATE TABLE series (
   author_id INTEGER,
   sub-genre_id INTEGER
 )
+
+CREATE TABLE genre(
+  id INTEGER PRIMARY KEY,
+  name STRING
+)
