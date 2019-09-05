@@ -15,7 +15,7 @@ CREATE TABLE authors(
   name STRING
 )
 
-CREATE TABLE books(
+CREATE TABLE series(
   id INTEGER PRIMARY KEY,
   title STRING,
   year INTEGER,
@@ -28,6 +28,12 @@ CREATE TABLE characters(
   motto STRING,
   author_id INTEGER,
   series_id INTEGER
+)
+
+CREATE TABLE books(
+  id INTEGER PRIMARY KEY,
+  character_id INTEGER,
+  book_id INTEGER
 )
 
 
