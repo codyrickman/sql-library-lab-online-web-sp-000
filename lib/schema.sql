@@ -1,4 +1,4 @@
-CREATE TABLE series (
+CREATE SCHEMA series (
   id INTEGER PRIMARY KEY,
   title STRING,
   author_id INTEGER,
