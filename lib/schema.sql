@@ -17,14 +17,14 @@ CREATE TABLE authors(
 
 CREATE TABLE books(
   id INTEGER PRIMARY KEY,
-  title STRING, 
+  title STRING,
   year INTEGER,
   series_id INTEGER
 )
 
 CREATE TABLE characters(
   id INTEGER PRIMARY KEY,
-  name STRING, 
+  name STRING,
   motto STRING,
   author_id INTEGER,
   series_id INTEGER
